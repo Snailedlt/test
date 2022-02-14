@@ -16,19 +16,19 @@ This repo is an official mod of the Nucleus Co-Op application. The mod is based 
 View the full list of features/changes and changelog in Mod-Readme.txt in releases.
 
 # Disclaimer
-Nucleus Co-Op was originally created by Lucas Assis. This Official Nucleus Co-op Mod is endorsed by Lucas. 
+Nucleus Co-op was originally created by Lucas Assis. This Official Nucleus Co-op Mod is endorsed by Lucas. 
 
 Github link to the original project: https://github.com/lucasassislar/nucleuscoop
-Official Nucleus Co-Op website: https://nucleus-coop.github.io/
+Official Nucleus Co-op website: https://nucleus-coop.github.io/
 
-Subscribe the official Nucleus Co-Op subreddit: https://www.reddit.com/r/nucleuscoop/  
-Nucleus Co-Op (Mod) FAQ via subreddit: https://www.reddit.com/r/nucleuscoop/comments/optwas/frequently_asked_questions/  
-Nucleus Co-Op (Mod) FAQ on website: https://nucleus-coop.github.io/docs/FAQ/
+Subscribe the official Nucleus Co-op subreddit: https://www.reddit.com/r/nucleuscoop/  
+Nucleus Co-op FAQ via subreddit: https://www.reddit.com/r/nucleuscoop/comments/optwas/frequently_asked_questions/  
+Nucleus Co-op FAQ on website: https://nucleus-coop.github.io/docs/FAQ/
 
-Join the official Nucleus Co-Op Discord: https://discord.gg/QDUt8HpCvr
+Join the official Nucleus Co-op Discord: https://discord.gg/QDUt8HpCvr
 
-# How does Nucleus Co-Op work?
-Nucleus Co-Op opens multiple instances of the same game (only 1 copy of the game is required in majority of cases) and connects those instances via LAN or steamworks online multiplayer emulation, but on the same PC. All while making sure all the windows have focus so they can be playable with gamepads or that the instances are playable even in the background. Nucleus then resizes, removes borders and repositions the games windows so you can have synthetic splitscreen to play locally with your friends.
+# How does Nucleus Co-op work?
+Nucleus Co-op opens multiple instances of the same game (only 1 copy of the game is required in majority of cases) and connects those instances via LAN or steamworks online multiplayer emulation, but on the same PC. All while making sure all the windows have focus so they can be playable with gamepads or that the instances are playable even in the background. Nucleus then resizes, removes borders and repositions the games windows so you can have synthetic splitscreen to play locally with your friends.
 
 # Installation:
 1. Download the latest release. 
@@ -45,13 +45,11 @@ You can find me on the Nucleus subreddit/discord as well as the Splitscreen Drea
 
 In addition, I accept donations should you wish to support my endevor. It is greatly appreciated but completely voluntary, I will continue my best to help the community and enhance this project.
 
-You can donate via PayPal through this link:
-
 Thank you ^_^
 
 # Credits
-- Original Nucleus Co-Op Project: [Lucas Assis (lucasassislar)](https://github.com/lucasassislar)  
-- Official Nucleus Co-Op Mod: [ZeroFox](https://github.com/ZeroFox5866)  
+- Original Nucleus Co-op Project: [Lucas Assis (lucasassislar)](https://github.com/lucasassislar)  
+- Official Nucleus Co-op : [ZeroFox](https://github.com/ZeroFox5866)  
 - Proto Input, multiple keyboards/mice: [Ilyaki](https://github.com/Ilyaki)  
 - Website & handler API: [r-mach](https://github.com/r-mach)  
   
