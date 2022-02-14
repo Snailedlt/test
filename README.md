@@ -4,7 +4,7 @@
 
 Nucleus Co-op is a free and open source tool for Windows that allows split-screen play on many games that do not initially support it.
 
-This repo is an official mod of the Nucleus Co-op application. The mod is based off of the official Nucleus Co-Op Alpha 8 build and features enhancements and quality of life changes including:
+This repo is an official mod of the Nucleus Co-op application. The mod is based off of the official Nucleus Co-op Alpha 8 build and features enhancements and quality of life changes including:
 - Huge increase to the amount of compatible games
 - Much more customization (via game scripts)
 - Support for any number of players
