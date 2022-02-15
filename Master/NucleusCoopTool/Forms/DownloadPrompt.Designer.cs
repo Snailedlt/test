@@ -114,7 +114,7 @@ namespace Nucleus.Coop.Forms
             this.MaximizeBox = false;
             this.Name = "DownloadPrompt";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Downloading Game Script";
+            this.Text = "Downloading Game Handler";
             this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();

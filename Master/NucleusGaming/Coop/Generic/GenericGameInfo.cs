@@ -303,7 +303,8 @@ namespace Nucleus.Gaming
         public bool LockInputAtStart = false;
         public bool PreventGameFocus = false;
         public int LockInputToggleKey = 0x23;//End by default. Keys: https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
-                                             // --
+        public bool ForceEnvironmentUse;
+        public bool ForceLauncherExeIgnoreFileCheck;                                  
 
         // Proto Input
         public ProtoInputOptions ProtoInput = new ProtoInputOptions();

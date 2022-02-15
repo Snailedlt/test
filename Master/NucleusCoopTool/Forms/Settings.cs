@@ -877,7 +877,7 @@ namespace Nucleus.Coop
 
         private void OfflineMod_SelectedIndexChanged(object sender, EventArgs e)
         {
-            ini.IniWriteValue("Dev", "OfflineMod", offlineMod.SelectedItem.ToString());
+            //ini.IniWriteValue("Dev", "OfflineMod", offlineMod.SelectedItem.ToString());
             if(offlineMod.SelectedIndex == 1)
             {
                 mainForm.connected = false;
