@@ -63,6 +63,6 @@ Additional credits to all original developers of third party utilities Nucleus u
 - briankendall ([devreorder](https://github.com/briankendall/devreorder))
 - VerGreeneyes ([DirectXWrapper](https://community.pcgamingwiki.com/files/file/87-the-bards-tale-2005-windowed-mode/))
 - wizark952 (dinput8 blocker)
-- Nemirtinga ([Epic Emulator](https://gitlab.com/Nemirtingas/nemirtingas_epic_emu) & [OpenXinput](https://github.com/Nemirtingas/OpenXinput))
+- Nemirtingas ([Epic\Galaxy Emulator](https://gitlab.com/Nemirtingas) & [OpenXinput](https://github.com/Nemirtingas/OpenXinput))
 
 Special thanks to: Talos91, PoundlandBacon, dr.oldboi, Pizzo, Snailed It and the rest of the Splitscreen Dreams discord community.
