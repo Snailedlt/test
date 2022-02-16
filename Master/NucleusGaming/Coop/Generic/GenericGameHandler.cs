@@ -1568,12 +1568,11 @@ namespace Nucleus.Gaming
                 profile.PlayerData.Add(firstInGroup);
             }
 
-            var reorderPlayers = profile.PlayerData.OrderBy(c => c.ScreenIndex).ThenBy(c => c.EditBounds.Y).ThenBy(c => c.EditBounds.X);
+            var reorderPlayers = profile.PlayerData.OrderBy(c => c.ScreenIndex).ThenBy(c => c.MonitorBounds.Y).ThenBy(c => c.MonitorBounds.X);//MonitorBounds nothing else!
             List<PlayerInfo> reorderedPlyrs = new List<PlayerInfo>();
 
             foreach (var player in reorderPlayers)
-            {
-                Log("Reorder players");
+            {              
                 reorderedPlyrs.Add(player);
             }
 
