@@ -365,6 +365,7 @@ v2.0 - xx
  - Fixed ui scaling issues at more than 100% desktop scale(and all other issues related to it).
  - Fixed multi-monitor vertical setup drawing to not overlap input device list.
  - Quality of life improvements such as but not limited to: new discord invite link, Nucleus Co-op github release link and much more. 
+ - Added Nermintingas Galaxy emulator support.
  - SplitCalculator(Josivan88) integration.
  - Renamed scripts to handlers. 
 

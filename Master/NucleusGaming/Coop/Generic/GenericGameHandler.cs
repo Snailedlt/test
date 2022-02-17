@@ -1595,6 +1595,7 @@ namespace Nucleus.Gaming
             for (int i = 0; i < players.Count; i++)
             {
                 players[i].PlayerID = i;
+
                 Log("Determining which monitors will be used by Nucleus");
                 foreach (Display dp in User32Util.GetDisplays())
                 {
@@ -1770,7 +1771,7 @@ namespace Nucleus.Gaming
 
                 file.Close();
 
-                Log("########## END OF Handler ##########");
+                Log("########## END OF HANDLER ##########");
             }
 
             if (ini.IniReadValue("Misc", "NucleusAccountPassword") != "12345" && ini.IniReadValue("Misc", "NucleusAccountPassword") != "")
@@ -2834,6 +2835,7 @@ namespace Nucleus.Gaming
                 context = gen.CreateContext(profile, player, this, hasKeyboardPlayer);
                 context.PlayerID = player.PlayerID;
                 context.IsFullscreen = isFullscreen;
+                // context.GamepadId = player.GamepadId+1;
 
                 if (gen.LauncherExe?.Length > 0)
                 {

@@ -1122,7 +1122,7 @@ namespace Nucleus.Coop
             this.btn_Play.FlatAppearance.BorderSize = 0;
             this.btn_Play.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Play.Font = new System.Drawing.Font("Franklin Gothic Medium", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Play.ForeColor = System.Drawing.Color.Yellow;
+            this.btn_Play.ForeColor = System.Drawing.Color.Lime;
             this.btn_Play.Location = new System.Drawing.Point(922, 1);
             this.btn_Play.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Play.Name = "btn_Play";

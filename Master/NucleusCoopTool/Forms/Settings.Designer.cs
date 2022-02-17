@@ -81,6 +81,7 @@ namespace Nucleus.Coop
             this.label1 = new System.Windows.Forms.Label();
             this.settingsCloseHKTxt = new System.Windows.Forms.TextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label31 = new System.Windows.Forms.Label();
             this.SplitDiv = new System.Windows.Forms.CheckBox();
             this.label49 = new System.Windows.Forms.Label();
             this.SplitColors = new System.Windows.Forms.ComboBox();
@@ -160,7 +161,6 @@ namespace Nucleus.Coop
             this.settingsCloseBtn = new System.Windows.Forms.Button();
             this.settingsSaveBtn = new System.Windows.Forms.Button();
             this.setting_Label = new System.Windows.Forms.Panel();
-            this.label31 = new System.Windows.Forms.Label();
             this.tabControl2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -671,6 +671,22 @@ namespace Nucleus.Coop
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "Custom Layout";
             this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
+            // 
+            // label31
+            // 
+            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label31.BackColor = System.Drawing.Color.Transparent;
+            this.label31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label31.ForeColor = System.Drawing.Color.Red;
+            this.label31.Location = new System.Drawing.Point(1, 165);
+            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(237, 15);
+            this.label31.TabIndex = 86;
+            this.label31.Text = "Splitscreen division may not work for all games.";
+            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label31.UseMnemonic = false;
             // 
             // SplitDiv
             // 
@@ -1677,22 +1693,6 @@ namespace Nucleus.Coop
             this.setting_Label.Name = "setting_Label";
             this.setting_Label.Size = new System.Drawing.Size(248, 15);
             this.setting_Label.TabIndex = 37;
-            // 
-            // label31
-            // 
-            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label31.BackColor = System.Drawing.Color.Transparent;
-            this.label31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label31.ForeColor = System.Drawing.Color.Red;
-            this.label31.Location = new System.Drawing.Point(1, 165);
-            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(237, 15);
-            this.label31.TabIndex = 86;
-            this.label31.Text = "Splitscreeen division may not work for all games.";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label31.UseMnemonic = false;
             // 
             // Settings
             // 

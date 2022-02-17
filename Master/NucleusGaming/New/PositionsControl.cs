@@ -791,7 +791,7 @@ namespace Nucleus.Coop
                     PlayerInfo kbPlayer = new PlayerInfo
                     {
                         IsKeyboardPlayer = true,
-                        GamepadId = 99
+                        GamepadId = -1
                     };
                     playerData.Add(kbPlayer);
                     //keyboardPlayer = true;

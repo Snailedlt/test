@@ -613,7 +613,7 @@ namespace Nucleus.Gaming
                 }
                 catch (ArgumentException ex)
                 {
-                    MessageBox.Show(ex.InnerException + ": " + ex.Message, "Error with script " + f.Name, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.InnerException + ": " + ex.Message, "Error with handler " + f.Name, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     continue;
                 }
 
@@ -657,7 +657,7 @@ namespace Nucleus.Gaming
             }
             catch (ArgumentException ex)
             {
-                MessageBox.Show(ex.InnerException + ": " + ex.Message, "Error with script " + f.Name, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.InnerException + ": " + ex.Message, "Error with handler " + f.Name, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 //continue;
             }
 
