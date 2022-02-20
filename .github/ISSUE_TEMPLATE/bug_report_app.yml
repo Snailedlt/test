@@ -1,0 +1,47 @@
+name: Bug Report
+description: Report a bug/issue that you found in the App
+title: '[BUG] <bug name>'
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: Short description of the bug that you found. Provide images/code if applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: howtoreplicate
+    attributes:
+      label: Steps to reproduce
+      description: List the steps to reproduce the issue
+    validations:
+      required: true
+  - type: textarea
+    id: expectedresult
+    attributes:
+      label: Expected result
+      description: What is the expected result when doing the steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: actualresult
+    attributes:
+      label: Actual result
+      description: What is the result of doing the steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: howtofix
+    attributes:
+      label: Possible fixes or solutions
+      description: List any possible fixes/suggestions that you have in mind that could solve this issue.
+    validations:
+      required: false
+  - type: textarea
+    id: extrainformation
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this bug?
+    validations:
+      required: false
