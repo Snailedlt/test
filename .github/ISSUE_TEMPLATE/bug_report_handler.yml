@@ -1,7 +1,7 @@
 name: Bug Report (Game Handler)
 description: Report a bug/issue with a game handler
 title: '[BUG] <game name>'
-labels: [bug-with-app]
+labels: [bug-with-handler]
 body:
   - type: textarea
     id: description
