@@ -1,0 +1,26 @@
+name: Suggest a feature (App)
+description: Suggest a new feature for the Nucleus Co-op App
+title: '[FEATURE] <feature name>'
+labels: [enhancement]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature description
+      description: Short description of the feature you want added. Provide images/code if applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why do you want this feature?
+      description: Tell us why you want/need this feature, and why it would be useful
+    validations:
+      required: true
+  - type: textarea
+    id: extrainformation
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this feature? Feel free to explain in depth here
+    validations:
+      required: false
