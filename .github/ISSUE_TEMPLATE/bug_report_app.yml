@@ -39,14 +39,13 @@ body:
     validations:
       required: false
   - type: textarea
-    id: systeminfo
+    id: systeminformation
     attributes:
       label: System & software info
       description: List up any important software you have on your PC that you think may be interfering with Nucleus
       value: |
         - OS: (e.g. Windows 10)
         - Antivirus/Antimalware: (e.g. Avast Antivirus)
-      render: markdown
     validations:
       required: false
   - type: textarea
