@@ -38,3 +38,21 @@ body:
       description: List any possible fixes/suggestions that you have in mind that could solve this issue.
     validations:
       required: false
+  - type: textarea
+    id: systeminfo
+    attributes:
+      label: System & software info
+      description: List up any important software you have on your PC that you think may be interfering with Nucleus
+      value: |
+        - OS: (e.g. Windows 10)
+        - Antivirus/Antimalware: (e.g. Avast Antivirus)
+      render: markdown
+    validations:
+      required: false
+  - type: textarea
+    id: extrainformation
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this bug?
+    validations:
+      required: false
