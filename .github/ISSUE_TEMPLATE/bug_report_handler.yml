@@ -1,6 +1,6 @@
-name: Bug Report (App)
-description: Report a bug/issue that you found in the App
-title: '[BUG] <bug name>'
+name: Bug Report (Game Handler)
+description: Report a bug/issue with a game handler
+title: '[BUG] <game name>'
 labels: [bug-with-app]
 body:
   - type: textarea
