@@ -17,3 +17,24 @@ body:
       description: List the steps to reproduce the issue
     validations:
       required: true
+  - type: textarea
+    id: expectedresult
+    attributes:
+      label: Expected result
+      description: What is the expected result when doing the steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: actualresult
+    attributes:
+      label: Actual result
+      description: What is the result of doing the steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: howtofix
+    attributes:
+      label: Possible fixes or solutions
+      description: List any possible fixes/suggestions that you have in mind that could solve this issue.
+    validations:
+      required: false
