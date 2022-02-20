@@ -1,7 +1,7 @@
 name: Bug Report
 description: Report a bug/issue that you found in the App
 title: '[BUG] <bug name>'
-labels: [bug]
+labels: [bug-with-app]
 body:
   - type: textarea
     id: description
